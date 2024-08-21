@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio,check,select,range element</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            Select One Fruit:
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+            <input type="radio" name="fruit" id="Apple" value="Apple">
+            <label for="Apple">Banana</label>
+            <input type="radio" name="fruit" id="Grapes" value="Grapes">
+            <label for="Grapes">Banana</label>
+            
+        </div>
+        <br>
+        <div>
+            Choose Your Subject:
+            <input type="checkbox" name="sub" id="Maths" value="Mat">
+            <label for="Maths">Maths</label>
+            <input type="checkbox" name="sub" id="Science" value="Sci">
+            <label for="Science">Science</label>
+            <input type="checkbox" name="sub" id="History" value="His">
+            <label for="History">History</label>
+        </div>
+        <br>
+        <div>
+            Choose Your Profession:
+            <select name="Profession" id="profession">
+                <option >select your profession</option>
+                <option value="stu" selected>Student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Volume">Volume</label>
+            <input type="range" min="0" max="100" name="Vol" id="Volume" value="70" step="10">
+        </div>
+        
+        <label for="feedback">Please Give Your Valuable Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="5" cols="25" placeholder="write your feedback here"></textarea>
+        
+        <button>Submit</button>
+        
+    </form>
+</body>
+</html>
