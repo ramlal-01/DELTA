@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    text-decoration: navy wavy underline;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: start;
+    font-weight: normal;
+    text-decoration:blue underline;
+}
+p{
+    text-align: start;
+    font-weight: lighter;
+    line-height: 2.5;
+    font-size: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    text-decoration: underline;
+}
