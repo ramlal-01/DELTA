@@ -58,3 +58,52 @@ input[type="password"]{
 input[type]{
     background-color: rgb(155, 167, 189);
 }
+
+button:hover{
+    color:darkslateblue;
+    background-color: white;
+}
+
+button:active{
+    background-color: cornflowerblue;
+    color: aquamarine;
+}
+
+p:active{
+    font-weight: bold;
+    color: darkorchid;
+}
+
+input[type="radio"]:checked+label{
+    color: #b92b27;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color:rgb(136, 207, 136);
+}
+
+h1::first-letter{
+    color: black;
+}
+
+#myId{
+    color:darkorange;
+}
+
+p::first-line{
+    color: blueviolet;
+}
+
+p::selection{
+    color: bisque;
+    background-color: rgb(183, 114, 117);
+}
+
+h3{
+    background-color: lightcoral;
+}
+
+h3{
+    background-color: lightskyblue;
+}

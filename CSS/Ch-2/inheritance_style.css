@@ -1,0 +1,24 @@
+div{
+    background-color: bisque;
+}
+
+form{
+    background-color: burlywood;
+}
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+button::first-letter{
+    color: blueviolet;
+}
+
+button:hover{
+    color:red;
+    background-color: blue;
+}
