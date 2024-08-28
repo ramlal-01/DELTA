@@ -2,13 +2,29 @@ div{
     height: 200px;
     width: 300px;
     background-color: bisque;
-    border-width: 5px;
+    /* border-width: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: black; */
+    border: 5px solid black;
+    border-top:4px dashed blue;
+    border-radius: 10px;
+    /* border-top-right-radius: 40px; /*to make one edge round */
+    /* border-radius: 50%; /* to make circle  */
+
+    padding-left: 20px;
+    padding-top: 20px; ;
 }
 
 h1{
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: dotted;
-    border-color: blueviolet;
+    border-color: blueviolet; */
+    border: 2px dotted rgb(13, 174, 169);
+}
+
+button{
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
 }
