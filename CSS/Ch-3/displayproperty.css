@@ -1,0 +1,26 @@
+/* h1{
+    display: inline;
+    background-color: aquamarine;
+}
+span{
+    display: block;
+    background-color: bisque;
+} */
+
+span{
+    border: 2px solid black;
+    height: 200px;
+    width: 500px;
+    padding: 50px; /*only set on L & R side*/
+    margin: 20px; /*only set on L & R side*/
+
+}
+
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 500px;
+    padding: 50px; /*only set on L & R side*/
+    margin: 20px; /*only set on L & R side*/
+    
+}
