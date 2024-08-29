@@ -11,8 +11,12 @@ div{
     /* border-top-right-radius: 40px; /*to make one edge round */
     /* border-radius: 50%; /* to make circle  */
 
-    padding-left: 20px;
-    padding-top: 20px; ;
+    /* padding-left: 20px; */
+    /* padding-top: 20px;  */
+    padding: 0px 5px 0px 5px;
+    margin-bottom: 25px;
+    /* margin-left: 20px; */
+    margin: 20px;
 }
 
 h1{
@@ -20,6 +24,9 @@ h1{
     border-style: dotted;
     border-color: blueviolet; */
     border: 2px dotted rgb(13, 174, 169);
+    margin-left: 20px;
+    margin: 0px;
+
 }
 
 button{
@@ -27,4 +34,7 @@ button{
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 15px;
+    margin-left: 20px;
+
+
 }
