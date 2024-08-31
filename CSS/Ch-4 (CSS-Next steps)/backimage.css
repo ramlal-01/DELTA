@@ -1,0 +1,9 @@
+div{
+    width: 950px;
+    height: 1185px;
+    background-color:#4dbaad;
+    margin: 10px auto;
+    background-image: url("bgimage.jpg");
+    background-size: contain;
+    font-size: 100px;
+}

@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(100, 15, 226, 0.786);
+    /* transition-duration: 2s;
+    transition-delay: 0.5s; */
+    margin: 0 auto;  /* short-cut for center*/
+    margin-top: 10px;
+    transition: margin-top 2s ease-in 0.5s;
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: rgb(66, 191, 191);
+    border-radius: 50%;
+    
+}
