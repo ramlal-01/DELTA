@@ -2,6 +2,36 @@
     height: 100px;
     width: 300px;
     background-color: palevioletred;
+    /* animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* -------Animation Shorthand------ */
+    animation: colorAnimate 3s ease-in 0s 2 normal;
+}
+@keyframes colorAnimate{
+    0%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: yellowgreen;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+        background-color: blanchedalmond;
+    }
+    to{
+        width: 400px;
+        background-color: aquamarine;
+    }
 }
 
 @keyframes fontAnimation {
@@ -13,3 +43,14 @@
     }
     
 }
+
+/* @keyframes colorAnimate{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: darkgreen;
+    }
+} */
+
+
