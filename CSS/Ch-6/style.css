@@ -17,8 +17,8 @@
     grid-gap: 10px;
 
     /* ---------some common properites--------- */
-    /* justify-items: center;
-    align-items: center; */.
+    /* justify-items: center; */
+    /* align-items: center; */
     place-items: center;
 
 }
