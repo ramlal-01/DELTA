@@ -271,3 +271,37 @@ a{
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album{
+    display: flex;
+    align-items: start;
+    /* margin-top: 1rem; */
+    padding: 0.5rem;
+}
+.album-icon{
+    height: 3.2rem;
+    width: 3.7rem;
+    align-items: center;
+    justify-content: center;
+}
+.album-content{
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+.album-content-title{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.album-content-details{
+    font-size: 0.80rem;
+}
+
+.album i{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     
+    height: 25%;
+}
