@@ -1,4 +1,4 @@
-// // this keyword
+// this keyword
 // const student = {
 //     name: "ram",
 //     age: 19,
@@ -25,8 +25,7 @@
 //     console.log(err);
 // }
 
-// // Arrow Fucntions
-
+// Arrow Fucntions
 // const sum=(a,b)=>{
 //     console.log(a+b);
 // }
@@ -34,12 +33,12 @@
 // const mul = (a,b)=> (a*b);
 
 // Set Timeout
-console.log("HI There!!")
+// console.log("HI There!!")
 // setTimeout(()=>{
 //     console.log("Ram Lal's Home.")
 // },4000);
-console.log("Welcome to ...")
-let id = setInterval( ()=>{
-    console.log("Ram Lal's Home.")
-},1000);
-console.log(id);  //clearInterval(id) ---------> to stop this fucntion.
+// console.log("Welcome to ...")
+// let id = setInterval( ()=>{
+//     console.log("Ram Lal's Home.")
+// },1000);
+// console.log(id);  //clearInterval(id) ---------> to stop this fucntion.

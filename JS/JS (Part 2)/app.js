@@ -17,13 +17,13 @@
 //     console.log("value is false");
 // }
 
-// alert("Do Not Open!!");
-// console.log("This is a simple error.");
-// console.error("This is an Error message.");
-// console.warn("This is a warning msg.");
+alert("Do Not Open!!");
+console.log("This is a simple error.");
+console.error("This is an Error message.");
+console.warn("This is a warning msg.");
 
-let firstName= prompt("Enter Your First Name:");
-let lastName= prompt("Enter Your Last Name:");
-let msg="Welcome"+" "+firstName+" "+lastName+"!";
-alert(msg);
+// let firstName= prompt("Enter Your First Name:");
+// let lastName= prompt("Enter Your Last Name:");
+// let msg="Welcome"+" "+firstName+" "+lastName+"!";
+// alert(msg);
 // console.log("Welcome",firstName,lastName,"!");
