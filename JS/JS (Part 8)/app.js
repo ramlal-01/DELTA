@@ -69,9 +69,9 @@
 // console.log(max);
 
 // spread
-// let arra =[1,2,3,5,4];
-// Math.min(...arra);
-// console.log(...arra);
+let arra =[1,2,3,5,4];
+Math.min(...arra);
+console.log(...arra);
 
 // Spread with Array Literals
 // let arr = [1,2,3,4,5];
@@ -95,8 +95,7 @@ let arr1=[1,2,3,4,5]; //val
 let obj1 = {...arr1 }; //obj -> key:val
 
 // Rest
-// function sum(...args){
-//     // arguments
+// function sum(...args){ // arguments
 //     for( let i=0 ; i< args.length ; i++){
 //         console.log("you gave us:", args[i]);
 //     }
